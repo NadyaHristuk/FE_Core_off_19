@@ -14,7 +14,7 @@ body{
 }
 
 .header{
-    margin-top: 50px;
+    /* margin-top: 50px; */
     padding: 225px 346px;
     background-image: url(../img/photo-1433354359170-23a4ae7338c6@1X.png);
     background-repeat: no-repeat;
@@ -52,17 +52,16 @@ body{
 }
 
 main{
-    /* width: 1400px;
-    margin: 0 auto;
-    background-color: #999; */
+    /* width: 1400px; 
+    margin: 0 auto; */
+   
 }
 .design{
-    background-color: #999;
+    background-image: linear-gradient(to right top, #777f8c, #778a97, #77959f, #79a0a3, #7faaa4);
 }
 .new-design{
-    padding-top: 200px;
-    margin: 0 140px 160px 150px;
-    width: 570px;
+    padding: 200px 140px 160px 150px;
+    width: 870px;
     background-color: #fff;
 }
 
@@ -72,6 +71,27 @@ main{
     color: rgba(255, 109, 109, 255);    
     text-transform: uppercase;
     font-weight: 400;
+    margin-bottom: 16px;
 }
 
+.new-design_title{
+    font-weight: 400;
+    font-size: 40px;
+    color: rgba(40, 40, 40, 255);
+    margin-bottom: 45px;
+}
 
+.new-design_text{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(40, 40, 40, 255);
+    margin-bottom: 40px;
+}
+/* .new-design_text:nth-child(2) */
+.new-design_text:last-child{     
+    margin-bottom: 0;
+}
+
+.feature{
+    background-image: url(../img/Composed-layer@1X.png);
+}
