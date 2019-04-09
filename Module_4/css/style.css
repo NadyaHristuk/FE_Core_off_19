@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* font-size: 0;
+    width: 600px; */
+}
+
+a, button, article p {
+    font-size: 16px;
+}
+
+article{
+    display: inline-block;
+    width: 300px;
+}
+article h3{
+    font-size: 22px;
+}
+
+
+.text::before{
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    background-image: url('https://cs8.pikabu.ru/post_img/big/2016/02/04/7/145458292112119207.jpg');
+    border-radius: 50%;
+}
+
+.text {
+    text-align: center;
+}
+
+.text::after{
+    content: '';
+    display: block;   
+    height: 3px;
+    width: 70px;
+    margin: 10px auto;
+    background-color: brown;
+}
+
+.products{
+    list-style: none;
+}
+
+.product-card{
+    width: 130px;
+    float: left;
+    margin-right: 10px;
+}
+
+.product-card img{
+    display: block;
+    width: 100%;
+}
+
+.price{
+    font-size: 0;
+}
+
+.price-title, .price-cash{
+    /* float: left; */
+    font-size: 16px;
+}
+
+.price-title{
+    float: left;
+    width: 90px;
+    background-color: aquamarine;
+}
+
+.price-cash{
+    float: right;
+    width: 20px;
+    background-color: gold;
+}
+
+.price:hover .price-title{
+    background-color: red;
+    color: #ffffff;
+}
+
+.price:hover .price-cash{
+    background-color: green;
+    color: #ffffff;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .right{
+    float: left;
+  }
+
+  .menu{
+    /* float: right; */
+    list-style: none;
+    margin: 0 auto;
+  }
+
+  .menu li{
+    float: left;     
+    margin-right: 5px;
+  }
+
+  .left{
+    float: right;
+  }
+
