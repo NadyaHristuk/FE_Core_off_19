@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Roboto"; /* название одно */
+  src: url("../fonts/Roboto-Black.ttf") format("truetype"); /* разные файлы */
+  font-weight: 900; /* разный вес/жирность */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto"; /* название одно */
+  src: url("../fonts/Roboto-LightItalic.ttf") format("truetype"); /* разные файлы */
+  font-weight: 300; /* разный вес/жирность */
+  font-style: italic;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  color: red;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+h2 {
+  background-image: url(../img/header_bg.png);
+}
+
+h2:hover {
+  background-image: linear-gradient(
+      rgba(9, 5, 47, 0.85) 0%,
+      rgba(9, 5, 47, 0.85) 100%
+    ),
+    url(../img/header_bg.png);
+}
