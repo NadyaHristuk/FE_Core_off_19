@@ -1,0 +1,37 @@
+.container {
+  margin-top: 50px;
+}
+.img-bloc {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.img-bloc h3 {
+  position: absolute;
+  font-size: 30px;
+  background: rgba(0, 0, 0, 0.4);
+  color: #ffffff;
+}
+.img-bloc img {
+  width: 100%;
+}
+.cont-4 {
+  height: 275px;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .cont-4 {
+    height: 222px;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  /* .cont-4 {
+    height: 100%;
+  } */
+}
